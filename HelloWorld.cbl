@@ -3,7 +3,7 @@
        method-id HelloWorld static attribute Microsoft.SqlServer.Server.SqlProcedureAttribute.
        local-storage section.
        procedure division returning return-value as binary-long.
-           display "Hello World"
+           display "Hello World, I a brave COBOL program backed in GitHub!!!"
            move 42 to return-value
            goback.           
        end method.
